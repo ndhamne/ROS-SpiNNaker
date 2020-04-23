@@ -1,0 +1,3 @@
+This is a Continuous Attractor Neural Network based on Touretzky Ring with Gaussian distribution to implement Local Excitation Global Inhibition. Once a neuron is excited it remains reaches a stable state, it stays in the stable state until a stronger stable state has emerged in the network. The logic behind this is to associate the view with a neuron and until a new view is seen. Thereafter, the stable state shifts accordingly when there is more than one competing stable states. 
+
+Execution : Start by executing the spinnaker_network file and the spike_injector. Once the Spike Injector ready message is received, the ROS can send messages (run the new_msg_pub.py script)
